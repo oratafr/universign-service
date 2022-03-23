@@ -24,6 +24,7 @@ class TransactionRequest extends Base
         'customId' => 'string',
         'mustContactFirstSigner' => 'bool',
         'finalDocRequesterSent' => 'bool',
+        'finalDocCCeMails' => 'array',
         'finalDocSent' => 'bool',
         'finalDocObserverSent' => 'bool',
         'description' => 'string',
